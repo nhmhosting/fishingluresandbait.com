@@ -534,7 +534,8 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 500px;
     display: flex;
     align-items: center;
-    background-image: url('/images/front-page-image.webp');
+    background-color: #0d3b5e;
+    background-image: linear-gradient(160deg, #0d3b5e 0%, #0d9488 100%), url('/images/front-page-image.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1457,20 +1458,20 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: contain;
 }
 
-.home-brand-bluebird { border-bottom: 3px solid #2563eb; }
-.home-brand-bluebird .home-brand-icon { color: #2563eb; }
+.home-brand-bluebird { border-bottom: 3px solid #1e64f0; }
+.home-brand-bluebird .home-brand-icon { color: #1e64f0; }
 
-.home-brand-thomas { border-bottom: 3px solid #dc2626; }
-.home-brand-thomas .home-brand-icon { color: #dc2626; }
+.home-brand-thomas { border-bottom: 3px solid #0d9488; }
+.home-brand-thomas .home-brand-icon { color: #0d9488; }
 
 .home-brand-international { border-bottom: 3px solid #16a34a; }
 .home-brand-international .home-brand-icon { color: #16a34a; }
 
-.home-brand-collins { border-bottom: 3px solid #9333ea; }
-.home-brand-collins .home-brand-icon { color: #9333ea; }
+.home-brand-collins { border-bottom: 3px solid #06b6d4; }
+.home-brand-collins .home-brand-icon { color: #06b6d4; }
 
-.home-brand-universal { border-bottom: 3px solid #d97706; }
-.home-brand-universal .home-brand-icon { color: #d97706; }
+.home-brand-universal { border-bottom: 3px solid #1454c4; }
+.home-brand-universal .home-brand-icon { color: #1454c4; }
 
 .home-brand-subtitle {
     font-size: 11px;

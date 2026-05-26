@@ -9,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-col">
-            <h4>Custom Bus & Truck Panels</h4>
+            <h4>Fishing Lures & Bait</h4>
             <p>{s.footer_description}</p>
             <div className="footer-contact">
               <p><strong>Sales:</strong> <a href={`tel:${s.contact_phone_sales}`}>{s.contact_phone_sales}</a></p>
@@ -34,7 +34,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Custom Bus & Truck Panels Inc - All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fishing Lures & Bait - All Rights Reserved.</p>
         </div>
       </div>
     </footer>
