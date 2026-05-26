@@ -1,0 +1,25 @@
+# robots.txt for Custom Bus & Truck Panels
+# https://custombusandtruckpanels.com
+
+User-agent: *
+Allow: /
+
+# Disallow authentication and account pages
+Disallow: /login
+Disallow: /register
+Disallow: /account
+Disallow: /admin
+
+# Disallow API endpoints
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://custombusandtruckpanels.com/sitemap.xml
+
+# Allow all images
+Allow: /images/
+
+# Allow CSS and JS for proper rendering
+Allow: /css/
+Allow: /js/
+
