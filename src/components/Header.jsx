@@ -69,7 +69,7 @@ function Header() {
         <div className="container">
           <div className="header-content">
             <Link to="/" className="logo">
-              <img src="/images/logo.webp" alt="Custom Bus & Truck Panels" className="logo-img" width="200" height="60" />
+              <img src="/images/logo.webp" alt="Cast & Catch Outdoors" className="logo-img" width="200" height="60" />
             </Link>
 
             <nav aria-label="Main navigation" className="main-nav">

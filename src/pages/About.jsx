@@ -15,7 +15,7 @@ function About() {
       {/* Page Header */}
       <section className="page-header">
         <div className="container">
-          <h1>About Us - School Bus Parts Manufacturer</h1>
+          <h1>About Us - Fishing Lures & Bait Shop</h1>
           <p>{s.about_header_subtitle}</p>
         </div>
       </section>
@@ -24,7 +24,7 @@ function About() {
       <section className="about-section">
         <div className="container">
           <div className="about-intro">
-            <h2 className="section-title">What We Do - School Bus Parts Manufacturing</h2>
+            <h2 className="section-title">What We Do - Fishing Tackle & Bait Supply</h2>
             <div className="about-intro-content">
               <p className="lead-text">
                 {s.about_what_we_do}
@@ -42,7 +42,7 @@ function About() {
           <div className="rust-callout">
             <div className="rust-callout-content">
               <h3>{s.about_slogan}</h3>
-              <p>Custom Bus and Truck Panels Inc.</p>
+              <p>Cast & Catch Outdoors LLC</p>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ function About() {
                   <path d="M12 1v6m0 6v10M1 12h6m6 0h10"></path>
                 </svg>
               </div>
-              <h3>Fiber Laser Cutting</h3>
+              <h3>Custom Painted Lures</h3>
               <p>{s.about_fiber_laser_text}</p>
             </div>
             <div className="capability-card">
@@ -111,7 +111,7 @@ function About() {
                   <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                 </svg>
               </div>
-              <h3>Plasma Cutting</h3>
+              <h3>Premium Bait Selection</h3>
               <p>{s.about_plasma_text}</p>
             </div>
             <div className="capability-card">
@@ -121,7 +121,7 @@ function About() {
                   <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
                 </svg>
               </div>
-              <h3>Custom Fabrication</h3>
+              <h3>Custom Orders</h3>
               <p>{s.about_custom_fab_text}</p>
             </div>
             <div className="capability-card">
@@ -167,7 +167,7 @@ function About() {
       {/* Brands Section */}
       <section className="brands-section">
         <div className="container">
-          <h2 className="section-title">School Bus Brands We Specialize In</h2>
+          <h2 className="section-title">Categories We Specialize In</h2>
           <div className="brands-grid">
             {[
               { nameKey: 'brand_bluebird_name', fullKey: 'brand_bluebird_full', catKey: 'brand_bluebird_categories' },
@@ -204,10 +204,10 @@ function About() {
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
-          <h2>Ready to Order School Bus Parts?</h2>
-          <p>Browse our catalog of 592+ school bus parts or contact us for custom fabrication</p>
+          <h2>Ready to Catch More Fish?</h2>
+          <p>Browse our catalog of 75+ fishing lures, live bait, and tackle or contact us for custom lure orders</p>
           <div className="cta-buttons">
-            <Link to="/shop" className="btn btn-primary">Shop Parts</Link>
+            <Link to="/shop" className="btn btn-primary">Shop Lures & Bait</Link>
             <Link to="/contact" className="btn btn-secondary">Contact Us</Link>
           </div>
         </div>

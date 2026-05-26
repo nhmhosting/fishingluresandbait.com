@@ -4,13 +4,13 @@
    ===================================================== */
 
 :root {
-    /* Industrial Color Palette */
-    --primary: #d97706;          /* Safety Orange */
-    --primary-dark: #b45309;
-    --primary-light: #fbbf24;
-    --secondary: #1e293b;        /* Dark Slate */
-    --secondary-light: #334155;
-    --accent: #059669;           /* Success Green */
+    /* Fishing / Water Color Palette */
+    --primary: #1e64f0;          /* Ocean Blue */
+    --primary-dark: #1454c4;
+    --primary-light: #5a99f5;
+    --secondary: #0d9488;        /* Teal */
+    --secondary-light: #2dd4bf;
+    --accent: #06b6d4;           /* Cyan */
     --danger: #dc2626;
     
     /* Neutrals */
